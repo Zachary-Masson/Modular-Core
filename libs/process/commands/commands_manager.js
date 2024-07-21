@@ -24,7 +24,7 @@ function CommandsManager(options) {
         _libs_1.Logger.Categorie(types_1.Colors.Yellow, "commands", `commands: [${commandsData.length}]`);
         for (const command of commandsData) {
             _libs_1.Logger.Start();
-            _libs_1.Logger.elementOfCategorie(types_1.Colors.Yellow, `/${command}`, `This command has been ${types_1.Colors.BrightGreen}Loaded ✓${types_1.Decoration.Reset}`);
+            _libs_1.Logger.elementOfCategorie(types_1.Colors.Yellow, `${command.name}`, `This command has been ${types_1.Colors.BrightGreen}Loaded ✓${types_1.Decoration.Reset}`);
             const cmd = yield modularCommandsRepository.findOne({
                 where: { name: command.name },
             });

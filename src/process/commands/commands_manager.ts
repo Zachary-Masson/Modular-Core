@@ -40,7 +40,7 @@ export async function CommandsManager(options: Options) {
     Logger.Start();
     Logger.elementOfCategorie(
       Colors.Yellow,
-      `/${command}`,
+      `${command.name}`,
       `This command has been ${Colors.BrightGreen}Loaded ✓${Decoration.Reset}`,
     );
     // Search if command exist in Database
