@@ -1,0 +1,2 @@
+import { ButtonBuilder } from "discord.js";
+export declare function ExportButton(components: ButtonBuilder): import("discord.js").APIActionRowComponent<import("discord.js").APIButtonComponent | import("discord.js").APIChannelSelectComponent | import("discord.js").APIMentionableSelectComponent | import("discord.js").APIRoleSelectComponent | import("discord.js").APIStringSelectComponent | import("discord.js").APIUserSelectComponent | import("discord.js").APITextInputComponent>;

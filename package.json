@@ -1,6 +1,6 @@
 {
   "name": "@zachary_masson/modular-core",
-  "version": "0.5.3",
+  "version": "0.5.5",
   "description": "Is perfect lib for create ur discord bot, with only, module!",
   "main": "./libs/main.js",
   "types": "./types/main.d.ts",
