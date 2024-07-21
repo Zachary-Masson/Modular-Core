@@ -1,0 +1,71 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "declaration": true,
+    "outDir": "./libs",
+    "declarationDir": "./types",
+
+    "target": "es6",
+    "module": "commonjs",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": true,
+    "incremental": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "noFallthroughCasesInSwitch": false,
+    "resolveJsonModule": true,
+
+    "baseUrl": "./src",
+    "paths": {
+      "@decorator/*": [
+        "decorator/*"
+      ],
+      "@decorator": [
+        "decorator/index.ts"
+      ],
+      "@entities/*": [
+        "entities/*"
+      ],
+      "@entities": [
+        "entities/index.ts"
+      ],
+      "@exports": [
+        "exports/index.ts"
+      ],
+      "@libs/*": [
+        "libs/*"
+      ],
+      "@libs": [
+        "libs/index.ts"
+      ],
+      "@process/*": [
+        "process/*"
+      ],
+      "@tools/*": [
+        "tools/*"
+      ],
+      "@tools": [
+        "tools/index.ts"
+      ],
+      "@types/*": [
+        "types/*"
+      ],
+      "@types": [
+        "types/index.ts"
+      ]
+    },
+  },
+  "include": [
+    "src/**/*",
+  ],
+  "exclude": [
+    "node_modules",
+  ]
+}
